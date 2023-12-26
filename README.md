@@ -20,7 +20,7 @@ kidney-disease-classification
 Clone the repository
 
 ```bash
-https://github.com/aliakseibrown/kidney-disease-classification.git
+git clone https://github.com/aliakseibrown/kidney-disease-classification.git
 ```
 
 ### STEP 1 - Create a conda environment after opening the repository
