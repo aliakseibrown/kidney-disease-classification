@@ -160,4 +160,3 @@ cython_debug/
 #.idea/
 
 artifacts/*
-research/04_model_evaluation.ipynb
