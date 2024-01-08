@@ -90,6 +90,19 @@ def save_bin(data: Any, path: Path):
 
     Args:
         data (Any): data to be saved as binary file
+        path (Path): path to binary file
+    """
+    joblib.dumb(value=data, filename = path)
+    logger.info(f"binary file saved at: {path}")
+
+
+@ensure_annotations
+def load_bin(data: Any, path: Path):
+    """
+    load binary file
+
+    Args:
+        data (Any): data to be saved as binary file
 
     Returns:
         Any: object stored in the file
