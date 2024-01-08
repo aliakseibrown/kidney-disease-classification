@@ -1,5 +1,6 @@
 # kidney-disease-classification
-kidney-disease-classification
+The model was trained on VGG16 using the [Kaggle Dataset](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone), with DVC for pipeline control and MLflow for tracking.     
+The trained model is now set up to run on a local server using the Flask web framework.
 
 ## Workflows
 1. Update config.yaml
